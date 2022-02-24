@@ -1,0 +1,59 @@
+* {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Lato", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 24px 150px;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+.grid__col-4 {
+    width: 33.33%;
+    padding: 0 6px;
+}
+
+.grid__col-8 {
+    width: 66.67%;
+    padding: 0 6px;
+}
+
+.grid__col-3 {
+    width: 25%;
+    padding: 0 6px;
+}
+
+.grid__col-12 {
+    width: 100%;
+    padding: 0 6px;
+}
+
+.grid__col-2 {
+    width: calc(100% / 6);
+}
+
+.text--center {
+    text-align: center;
+}
